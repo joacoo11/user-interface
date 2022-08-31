@@ -18,13 +18,13 @@ function Login() {
         max-height: 800px;
     `
      const QzeeLogo = styled.img`
-        height: 650px;
-        width: 650px;
+        max-height: 650px;
+        max-width: 650px;
      `
      const QzeeTitle = styled.img`
         position: absolute;
-        width: 504px;
-        height: 143px;
+        max-width: 504px;
+        max-height: 143px;
         left: 129px;
         top: 241px;
      `
@@ -62,8 +62,8 @@ function Login() {
      const Input = styled.input`
         box-sizing: border-box;
         padding: 16px 16px 16px;
-        width: 320px;
-        height: 50px;
+        max-width: 320px;
+        max-height: 50px;
         border: 1px solid #DADCDD;
         border-radius: 10px;
         margin-bottom: 6px;
