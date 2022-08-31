@@ -12,6 +12,7 @@ import Dash3 from '../Assets/Dash3.png'
 import Dash4 from '../Assets/Dash4.png'
 import appstor from '../Assets/app-stor.png'
 import playstor from '../Assets/play-stor.png'
+import { Link } from 'react-router-dom'
 
 
 function HomeDashboard() {
@@ -98,6 +99,10 @@ function HomeDashboard() {
         height:25px;
         cursor: pointer;
     `
+    const StyledLink = styled(Link)`
+    text-decoration: none;
+    color:#242328;
+  `
     return (
     <HomeDashboard>
         <QzeeLogo src={QZee} alt="QZee" />
@@ -120,7 +125,7 @@ function HomeDashboard() {
             </DashItem>
             <DashItem>
                 <img src={Dash3} alt="dash" />
-                <DashTitle>Queue</DashTitle>
+                <StyledLink to='/Queue2'><DashTitle>Queue</DashTitle></StyledLink>
             </DashItem>
             <DashItem>
                 <img src={Dash4} alt="dash" />

@@ -28,6 +28,7 @@ function ActiveQueue () {
     const ActiveQueueLay = styled.div`
         max-width: 36%;
         width: 100%;
+        margin-top: 2%;
     `
     const ActiveQueueH1 = styled.h1`
         font-family: 'Montserrat';

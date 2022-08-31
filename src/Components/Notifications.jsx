@@ -6,7 +6,7 @@ function Notifications () {
 
     const NotificationsDiv = styled.div`
         margin-left: 23%;
-        margin-top: -10%;
+        margin-top: -7%;
     `
     const NotificationsH1 = styled.h1`
         font-family: 'Montserrat';

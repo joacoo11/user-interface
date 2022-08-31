@@ -10,6 +10,7 @@ function ActiveBookings () {
     const ActiveBookingsLay = styled.div`
         max-width: 50%;
         width: 100%;
+        margin-top: 2%;
     `
 
     const ActiveQueueH1 = styled.h1`
