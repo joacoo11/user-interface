@@ -12,6 +12,7 @@ import Login4 from './Login/Login4';
 import Login5 from './Login/Login5';
 import Home from './Screens/Home';
 import Beauty from './Screens/Beauty';
+import Queue1 from './Screens/Queue1';
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/Login5' element={<Login5 />} />
           <Route path='/Home' element={<Home />} />
           <Route path='/Beauty' element={<Beauty />} />
+          <Route path='/Queue1' element={<Queue1 />} />
         </Routes>
     </BrowserRouter>
   );

@@ -136,7 +136,7 @@ function Login() {
             </InputDiv>
         </LoginFormDiv>
         <ForgotPassword>
-            <StyledLink to='Login2'><ForgotSpan>Forgot password?</ForgotSpan></StyledLink>
+            <StyledLink to='/Login2'><ForgotSpan>Forgot password?</ForgotSpan></StyledLink>
             <StyledLink to='/Home'><SignInBtn>Sign in</SignInBtn></StyledLink>
         </ForgotPassword>
     </Login>
