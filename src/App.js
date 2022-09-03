@@ -13,12 +13,10 @@ import Login5 from './Login/Login5';
 import Home from './Screens/Home';
 import Beauty from './Screens/Beauty';
 import Queue1 from './Screens/Queue1';
-import Queue2 from './Screens/Queue2';
+import QueueExtra from './Screens/QueueExtra';
+import QueueDownloadApp from './Screens/QueueDownloadApp';
 import Profile1 from './Screens/Profile1';
-
-
-
-
+import Bookings1 from './Screens/Bookings1';
 
 
 function App() {
@@ -34,7 +32,9 @@ function App() {
           <Route path='/Home' element={<Home />} />
           <Route path='/Beauty' element={<Beauty />} />
           <Route path='/Queue1' element={<Queue1 />} />
-          <Route path='/Queue2' element={<Queue2 />} />
+          <Route path='/QueueExtra' element={<QueueExtra />} />
+          <Route path='/QueueDownloadApp' element={<QueueDownloadApp />} />
+          <Route path='/Bookings1' element={<Bookings1 />} />
           <Route path='/Profile1' element={<Profile1 />} />
         </Routes>
     </BrowserRouter>

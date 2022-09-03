@@ -3,7 +3,8 @@ import React from 'react'
 import styled from 'styled-components'
 import HomeDashboard from '../Components/HomeDashboard'
 import Queue1Div from '../Components/Queue1Div'
-import Queue1Component from '../Components/Queue1Component'
+import Bookings1Component from '../Components/Bookings1Component'
+
 
 
 
@@ -16,7 +17,7 @@ function Home() {
     <div>
     <MainDiv>
       <HomeDashboard />
-      <Queue1Component />
+      <Bookings1Component />
     </MainDiv>
     <Queue1Div />
     </div>

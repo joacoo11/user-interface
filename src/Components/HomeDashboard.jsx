@@ -125,11 +125,11 @@ function HomeDashboard() {
             </DashItem>
             <DashItem>
                 <img src={Dash3} alt="dash" />
-                <StyledLink to='/Queue2'><DashTitle>Queue</DashTitle></StyledLink>
+                <StyledLink to='/Queue1'><DashTitle>Queue</DashTitle></StyledLink>
             </DashItem>
             <DashItem>
                 <img src={Dash4} alt="dash" />
-                <DashTitle>Booking</DashTitle>
+                <StyledLink to='/Bookings1'><DashTitle>Bookings</DashTitle></StyledLink>
             </DashItem>
         </div>
         <DownloadDiv>
